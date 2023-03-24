@@ -15,13 +15,14 @@ while (true) // проверка на ввод числа
         Console.Write("Введите число!: ");
         sizeStr = Console.ReadLine();
     }
-    else { break; }
+    else
+    {
+        break;
+    }
 }
 
 string[] array = Array(size);
 Console.WriteLine($"[{string.Join(", ", array)}]");
-
-
 
 string[] Array(int sizeStrw)
 {
@@ -35,24 +36,5 @@ string[] Array(int sizeStrw)
     return arr;
 }
 
-void Format()
-{
-    string[] arrFormat = new string[size];
-    for (int i = 0; i < size; i++)
-    {
-        
-        Console.WriteLine(array[i].Length);
-        /* if (num.Length <= 3)
-        {
-            Console.WriteLine("Петух");
-        }
-        else{
-            Console.WriteLine("Петух2");
-        } */
-        
-    }
-}
-
-Format();
 
 Console.ReadLine();
