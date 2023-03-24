@@ -58,7 +58,7 @@ void Format() // форматирование
             count++;
         }
     }
-    Console.WriteLine($"[{string.Join(", ", arrFormat)}]");
+    Console.WriteLine($"[{string.Join(", ", array)}] -> [{string.Join(", ", arrFormat)}]");
 }
 
 Format();
