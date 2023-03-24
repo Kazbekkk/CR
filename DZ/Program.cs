@@ -47,7 +47,7 @@ void Format() // форматирование
             countArr++;
         }
     }
-    string[] arrFormat = new string[countArr]; // создание массива отформатированого массива
+    string[] arrFormat = new string[countArr]; // создание массива отформатированого
 
     int count = 0;
     for (int i = 0; i < size; i++)
