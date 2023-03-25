@@ -22,7 +22,7 @@ while (true) // проверка на ввод числа
 }
 
 string[] array = Array(size);
-Console.WriteLine($"[{string.Join(", ", array)}]");
+Format(); // вывод 
 
 string[] Array(int sizeStrw) // создание массива
 {
@@ -61,7 +61,7 @@ void Format() // форматирование
     Console.WriteLine($"[{string.Join(", ", array)}] -> [{string.Join(", ", arrFormat)}]");
 }
 
-Format();
+
 
 Console.ReadLine();
 
